@@ -139,5 +139,28 @@ margin: 0;
     background: #FFE4E8;
     color: #FF4A60;
     font-weight: 600;
-
 }
+
+/* Responsive css */
+@media screen and (max-width: 799px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+      }
+}
+@media screen and (max-width: 767px) {
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 683px) {
+    .blog-section .blogs{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+@media screen and (max-width: 380px) {
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
